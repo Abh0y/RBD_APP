@@ -1,11 +1,9 @@
-import './App.css'
+import React from 'react';
 
-function App() {
+const App = () => (
+  <div>
+    <img src="/vite.svg" alt="Vite Logo" />
+  </div>
+);
 
-  return (
-    <>
-    </>
-  )
-}
-
-export default App
+export default App;
