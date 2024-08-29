@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 import { useDispatch } from "react-redux";
 import { setUserDetails, setUserRole } from "../redux/UserSlice";
-import axiosInstance from "../utils/AxiosInstance";
+import axiosInstance from "../utils/axiosInstance";
 
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);

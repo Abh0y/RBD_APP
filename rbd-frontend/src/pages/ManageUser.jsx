@@ -3,7 +3,7 @@ import { MdEditDocument, MdOutlineDeleteSweep } from "react-icons/md";
 import { toast } from "react-toastify";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import axiosInstance from "../utils/AxiosInstance";
+import axiosInstance from "../utils/axiosInstance";
 
 const ManageUser = () => {
   const [userData, setUserData] = useState([]);

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Calendar from "../components/Calendar";
 import { useSelector } from "react-redux";
-import axiosInstance from "../utils/AxiosInstance";
+import axiosInstance from "../utils/axiosInstance";
 
 const Dashboard = () => {
   const [userCount, setUserCount] = useState(0);
